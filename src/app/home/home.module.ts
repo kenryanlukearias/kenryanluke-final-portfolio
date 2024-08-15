@@ -8,12 +8,19 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { ContactModule } from '../contact/contact.module';
 import { AboutModule } from '../about/about.module';
 import { ProjectsModule } from '../projects/projects.module';
-
-
-
+import { NzGridModule } from 'ng-zorro-antd/grid';
 
 @NgModule({
   declarations: [LandingPageComponent],
-  imports: [CommonModule, HomeRoutingModule, NzLayoutModule, NzIconModule, ContactModule, AboutModule, ProjectsModule],
+  imports: [
+    CommonModule,
+    HomeRoutingModule,
+    NzLayoutModule,
+    NzIconModule,
+    ContactModule,
+    AboutModule,
+    ProjectsModule,
+    NzGridModule,
+  ],
 })
 export class HomeModule {}
