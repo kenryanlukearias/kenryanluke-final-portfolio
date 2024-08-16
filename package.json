@@ -20,6 +20,7 @@
     "@angular/router": "^15.2.0",
     "@iconify-json/mdi": "^1.1.68",
     "@iconify-json/mdi-light": "^1.1.11",
+    "@vercel/blob": "^0.23.4",
     "ng-zorro-antd": "^15.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
