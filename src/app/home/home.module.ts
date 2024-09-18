@@ -7,9 +7,12 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 
 import { NzGridModule } from 'ng-zorro-antd/grid';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [LandingPageComponent],
+  declarations: [LandingPageComponent, AboutComponent, ProjectsComponent, ContactComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
